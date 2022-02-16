@@ -34,10 +34,15 @@ body {
 }
 
 .cabecalho-item {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
+}
+
+.cabecalho-item:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .conteudo {
@@ -59,27 +64,27 @@ body {
 }
 
 .conteudo-principal-titulo {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 64px;
     color: black;
 }
 
 .conteudo-principal-subtitulo {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 24px;
     color: black;
 }
 
 .conteudo-principal-botao {
-    background-color: #28B190;
+    background-color: #28b190;
     width: 180px;
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 24px;
     color: white;
@@ -107,14 +112,14 @@ body {
 .conteudo-secundario-titulo {
     border-top: 0.4px solid black;
     padding: 24px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 36px;
     color: black;
 }
 
 .conteudo-secundario-paragrafo {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 18px;
     color: black;
